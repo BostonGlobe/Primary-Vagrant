@@ -12,7 +12,8 @@ Vagrant.configure("2") do |root|
 		# Default Ubuntu Box
 		#
 		# This box is provided directly by Bento and is updated regularly.
-		config.vm.box = "bento/ubuntu-16.04"
+		config.vm.box = "bento/centos-7.6"
+		config.vm.box_version = "201812.27.0"
 
 		config.vm.hostname = "pv"
 
